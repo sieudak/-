@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: 'Fira Code', monospace;
-    background: #1e1e1e;
-    color: #ffde57;
+    font-family: 'Poppins', sans-serif;
+    background: black;
+    color: #fff;
     text-align: center;
     padding: 10px;
     overflow-x: hidden;
@@ -16,12 +16,12 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #306998, #ffe873);
+    background: linear-gradient(135deg, #FFD43B, #4B8BBE);
     color: white;
     padding: 50px 10px;
     font-size: 1.2em;
-    box-shadow: 0px 5px 15px rgba(48, 105, 152, 0.7);
-    border-bottom: 3px solid #306998;
+    box-shadow: 0px 5px 15px rgba(255, 212, 59, 0.7);
+    border-bottom: 3px solid #FFD43B;
     text-transform: uppercase;
     animation: flicker 1s infinite alternate;
 }
@@ -30,7 +30,7 @@ header h1 {
     font-size: 2.5em;
     font-weight: 900;
     letter-spacing: 2px;
-    text-shadow: 3px 3px 10px rgba(48, 105, 152, 0.8);
+    text-shadow: 3px 3px 10px rgba(255, 212, 59, 0.8);
     animation: neonGlow 1.2s infinite alternate;
 }
 
@@ -40,28 +40,28 @@ header h1 {
 }
 
 @keyframes neonGlow {
-    from { text-shadow: 0 0 8px #306998, 0 0 15px #ffe873; }
-    to { text-shadow: 0 0 15px #306998, 0 0 30px #ffe873; }
+    from { text-shadow: 0 0 8px #FFD43B, 0 0 15px #4B8BBE; }
+    to { text-shadow: 0 0 15px #FFD43B, 0 0 30px #4B8BBE; }
 }
 
 /* Sections */
 section {
-    background: rgba(48, 105, 152, 0.2);
+    background: rgba(255, 212, 59, 0.2);
     margin: 30px auto;
     padding: 30px;
     border-radius: 15px;
     max-width: 800px;
-    box-shadow: 0 0 20px rgba(48, 105, 152, 0.5);
-    border: 1px solid rgba(48, 105, 152, 0.8);
+    box-shadow: 0 0 20px rgba(255, 212, 59, 0.5);
+    border: 1px solid rgba(255, 212, 59, 0.8);
 }
 
 h2 {
     font-size: 2em;
-    color: #ffe873;
+    color: #4B8BBE;
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 2px solid #306998;
+    border-bottom: 2px solid #FFD43B;
     padding-bottom: 5px;
     animation: pulse 0.8s infinite alternate;
 }
@@ -78,7 +78,7 @@ ul {
 }
 
 ul li {
-    background: linear-gradient(135deg, #306998, #ffe873);
+    background: linear-gradient(135deg, #FFD43B, #4B8BBE);
     color: white;
     padding: 15px;
     margin: 10px 0;
@@ -87,12 +87,12 @@ ul li {
     font-weight: bold;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(48, 105, 152, 0.5);
+    box-shadow: 0 4px 10px rgba(255, 212, 59, 0.5);
 }
 
 ul li:hover {
     transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(48, 105, 152, 0.8);
+    box-shadow: 0 5px 15px rgba(255, 212, 59, 0.8);
 }
 
 /* Footer */
@@ -102,6 +102,6 @@ footer {
     color: white;
     padding: 20px;
     font-size: 1em;
-    border-top: 3px solid #306998;
+    border-top: 3px solid #FFD43B;
     text-transform: uppercase;
 }
